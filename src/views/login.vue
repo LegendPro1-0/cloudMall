@@ -54,7 +54,7 @@ defineComponent({
       username:[{ required: true, message: '请输入用户名', trigger: 'blur' }],
       password:[
                 { required: true, message: '请输入密码', trigger: 'blur' },
-                { min: 6, max: 6, message: '请输入六位密码', trigger: 'blur' }
+                { min: 5, max: 5, message: '请输入六位密码', trigger: 'blur' }
                ]
     }
   );
